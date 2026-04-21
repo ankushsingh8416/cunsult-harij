@@ -17,7 +17,7 @@ const BAR_HEIGHT = "h-[220px]";
 const DEFAULT_FILL = "h-full";
 
 
-export default function Trends({ therapistImg }) {
+export default function Trends({ therapistImg }: { therapistImg: string }) {
     return (
         <div className="w-full bg-white rounded-xl px-5 pt-6 pb-8 border border-[#dadada]">
 
