@@ -35,7 +35,7 @@ const link2 = [
 ]
 
 
-export default function Sidebar({ userImg }) {
+export default function Sidebar({ userImg }: { userImg: string }) {
   const pathname = usePathname()
 
   return (
