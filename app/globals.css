@@ -8,7 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-poppins);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -22,5 +22,60 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.send #button {
+  background: linear-gradient(
+    135deg,
+    #1b9ba2 0%,
+    #f69e0a 50%,
+    #ec4899 75%,
+    #1b9ba2 100%
+  );
+}
+#ai-search {
+  background: linear-gradient(#ffff, #fef8fb);
+}
+.focus-right-box {
+  background: linear-gradient(
+    135deg,
+    #e9ffc2 0%,
+    #ffffff 25%,
+    #ffffff 50%,
+    #f4ffe0 100%
+  );
+}
+.blur-text  { filter: blur(3.5px); }
+.blur-tag   { filter: blur(3px); }
+
+.tag-purple { background-color: #EDE0F8; color: #8B4FBD; }
+.tag-red    { background-color: #FDDEDE; color: #C94040; }
+.tag-orange { background-color: #FDE8DE; color: #E8632A; }
+.tag-green  { background-color: #D6F2E4; color: #2E8A54; }
+.tag-pink   { background-color: #FCE0EE; color: #C4326A; }
+.mind-card-blue {
+  background: linear-gradient(103.68deg, #C7E9FF -2.23%, #E4FFFF 104.3%);
+}
+
+.mind-card-yellow {
+  background: linear-gradient(103.68deg, #FEEF7B -2.23%, #FEF5DC 104.3%);
+}
+
+.mind-card-purple {
+  background: linear-gradient(103.68deg, #CEC3FF -2.23%, #F3E8FF 104.3%);
+}
+
+.mind-card-pink {
+  background: linear-gradient(103.68deg, #FFD1EB -2.23%, #FAE8FF 104.3%);
+}
+.mood-fill-purple { background: linear-gradient(to bottom, #D8B4FE, #A855F7); }
+.mood-fill-green  { background: linear-gradient(to bottom, #BEF264, #84CC16); }
+.mood-fill-pink   { background: linear-gradient(to bottom, #F9A8D4, #EC4899); }
+.mood-fill-teal   { background: linear-gradient(to bottom, #5EEAD4, #0D9488); }
+.mood-fill-red    { background: linear-gradient(to bottom, #FCA5A5, #EF4444); }
+.mood-fill-sat    { background: #D1D5DB; }
+
+
+.recommend{
+  background: linear-gradient(146.7deg, #D1FFC2 -50.68%, #FFFFFF 24.02%, #FFFFFF 80.33%, #D1FFC2 124%);
 }
