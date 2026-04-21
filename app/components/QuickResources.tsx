@@ -7,7 +7,7 @@ export default function QuickResources() {
         <div className="border border-[#E8E8E8] rounded-2xl p-5 bg-white">
 
             <div className="flex items-center gap-2 mb-4">
-                <Image src="/assets/icons/quick/learn.png" width={20} height={20} />
+                <Image src="/assets/icons/quick/learn.png" alt="" width={20} height={20} />
                 <h3 className="font-bold text-[#1C1C1C] text-base">Quick Learning Resources</h3>
             </div>
 
@@ -15,7 +15,7 @@ export default function QuickResources() {
 
                 <div className="flex items-center gap-3 p-3 rounded-xl bg-[#F7F7F7]">
                     <div>
-                        <Image src="/assets/icons/quick/youtube.png" alt="Science" width={40} height={40} />
+                        <Image src="/assets/icons/quick/youtube.png" alt="" width={40} height={40} />
                     </div>
                     <div className="flex-1 min-w-0">
                         <p className="text-sm font-semibold text-[#1C1C1C] leading-tight">
@@ -28,7 +28,7 @@ export default function QuickResources() {
 
                 <div className="flex items-center gap-3 p-3 rounded-xl bg-[#F7F7F7]">
                     <div>
-                        <Image src="/assets/icons/quick/pdf.png" alt="Science" width={40} height={40} />
+                        <Image src="/assets/icons/quick/pdf.png" alt="" width={40} height={40} />
                     </div>
                     <div className="flex-1 min-w-0">
                         <p className="text-sm font-semibold text-[#1C1C1C]">Motion & Energy Pdf</p>

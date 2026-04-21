@@ -10,7 +10,7 @@ export default function JourneyProgress() {
         <div className="border border-[#E8E8E8] rounded-2xl p-5 bg-white">
 
             <div className="flex items-center gap-2 mb-4">
-                <Image src="/assets/icons/progress.png"  width={20} height={20} />
+                <Image src="/assets/icons/progress.png" alt="" width={20} height={20} />
                 <h3 className="font-bold text-[#1C1C1C] text-base">Journey Progress</h3>
             </div>
 

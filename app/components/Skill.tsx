@@ -19,7 +19,7 @@ export default function Skill() {
 
             <div className="flex items-center gap-4 mb-5">
                 <div className="w-10 h-10 rounded-xl bg-[#EDE0F8] flex items-center justify-center shrink-0">
-                                       <Image src="/assets/icons/skills/skill1.png" alt="Science" width={20} height={20} />
+                                       <Image src="/assets/icons/skills/skill1.png" alt="" width={20} height={20} />
 
                 </div>
 
@@ -42,7 +42,7 @@ export default function Skill() {
 
             <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-xl bg-[#FDE8DE] flex items-center justify-center shrink-0">
-                    <Image src="/assets/icons/skills/skill2.png" alt="Science" width={20} height={20} />
+                    <Image src="/assets/icons/skills/skill2.png" alt="" width={20} height={20} />
                 </div>
 
                 <div className="flex-1">
